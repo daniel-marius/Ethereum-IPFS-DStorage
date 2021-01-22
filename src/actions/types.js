@@ -1,0 +1,5 @@
+export const BLOCKCHAIN_ITEMS = "BLOCKCHAIN_ITEMS";
+export const LATEST_BLOCKS = "LATEST_BLOCKS";
+export const IPFS_UPLOAD = "IPFS_UPLOAD";
+export const ETHEREUM_ERROR = "ETHEREUM_ERROR";
+export const IPFS_ERROR = "IPFS_ERROR";
