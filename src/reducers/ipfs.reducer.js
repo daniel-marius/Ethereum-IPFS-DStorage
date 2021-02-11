@@ -3,9 +3,9 @@ import { IPFS_UPLOAD, IPFS_ERROR } from "../actions";
 const ipfsReducer = (state = {}, action) => {
   switch (action.type) {
     case IPFS_UPLOAD:
-      return action.payload;
+      return action.payload || {};
     case IPFS_ERROR:
-      return action.payload;
+      return action.payload || IPFS_ERROR;
     default:
       return state;
   }
